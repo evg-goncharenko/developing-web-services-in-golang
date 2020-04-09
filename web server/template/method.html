@@ -1,0 +1,10 @@
+<html>
+<body>
+	<h1>Users</h1>
+	{{range .Users}}
+		<b>{{.Name}}</b>
+		{{.PrintActive true}}
+		<br />
+	{{end}}
+</body>
+</html>
