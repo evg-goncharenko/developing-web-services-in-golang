@@ -1,5 +1,4 @@
- # HTTP и компания
-
+## HTTP
 - Net;
 - HTTP;
 - Testing;
@@ -7,10 +6,9 @@
 - Json;
 - XML.
 
- ### Документация и дополнительные материалы:
-
+<b> Документация и дополнительные материалы: </b>
 - https://golang.org/pkg/net/http/
-—
+---
 - https://gowebexamples.github.io/ - примеры касательно разработки веба
 - https://golang.org/doc/articles/wiki/
 - https://astaxie.gitbooks.io/build-web-application-with-golang/
