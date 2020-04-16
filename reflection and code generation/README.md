@@ -6,7 +6,7 @@
 - Pprof;
 - Escape analysis.
 
-### Документация и дополнительные материалы:
+<b> Документация и дополнительные материалы: </b>
 - https://blog.golang.org/laws-of-reflection
 - https://habrahabr.ru/post/269887/
 - https://golang.org/src/go/ast/example_test.go
@@ -17,15 +17,14 @@
 - https://medium.com/kokster/go-reflection-creating-objects-from-types-part-i-primitive-types-6119e3737f5d
 - https://medium.com/kokster/go-reflection-creating-objects-from-types-part-ii-composite-types-69a0e8134f20
 
----
-### Производительность:
-<b>Материалы на русском:</b>
+<b> Производительность: </b> <br>
+Материалы на русском:
 - https://habrahabr.ru/company/badoo/blog/301990/
 - https://habrahabr.ru/company/badoo/blog/324682/
 - https://habrahabr.ru/company/badoo/blog/332636/
 - https://habrahabr.ru/company/mailru/blog/331784/ - статья про то как Почта@Mail.ru держит 3 миллиона вебсокет-соединений
-<br>
-<b>Материалы на английском:</b>
+
+Материалы на английском:
 - https://blog.golang.org/profiling-go-programs
 - https://about.sourcegraph.com/go/an-introduction-to-go-tool-trace-rhys-hiltner/ - большая статья, посвященная go tool trace
 - https://www.goinggo.net/2017/05/language-mechanics-on-stacks-and-pointers.html
@@ -43,16 +42,17 @@
 - https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
 - https://dave.cheney.net/2014/06/07/five-things-that-make-go-fast - вообще в блоге Дейва очень много полезной инфы по го
 - https://github.com/dgryski/go-perfbook/blob/master/performance.md
-- https://www.youtube.com/watch?v=NS1hmEWv4Ac - Make your Go go faster! Optimising performance through reducing memory allocations + слайды * https://fosdem.org/2018/schedule/event/faster/attachments/slides/2510/export/events/attachments/faster/slides/2510/BryanBorehamGoOptimisation.pdf
-- https://www.youtube.com/watch?v=N3PWzBeLX2M - Profiling and Optimizing Go
-- https://www.youtube.com/watch?v=Lxt8Vqn4JiQ - Golang UK Conference 2017 | Filippo Valsorda - Fighting latency: the CPU profiler is not your ally
-- https://www.youtube.com/watch?v=ydWFpcoYraU - Finding Memory Leaks in Go Programs
+- https://www.youtube.com/watch?v=NS1hmEWv4Ac - make your Go faster! Optimising performance through reducing memory allocations + слайды *
+- https://fosdem.org/2018/schedule/event/faster/attachments/slides/2510/export/events/attachments/faster/slides/2510/BryanBorehamGoOptimisation.pdf
+- https://www.youtube.com/watch?v=N3PWzBeLX2M - profiling and Optimizing Go
+- https://www.youtube.com/watch?v=Lxt8Vqn4JiQ - golang UK Conference 2017 | Filippo Valsorda - Fighting latency: the CPU profiler is not your ally
+- https://www.youtube.com/watch?v=ydWFpcoYraU - finding Memory Leaks in Go Programs
 - http://www.integralist.co.uk/posts/profiling-go/
 - https://bravenewgeek.com/so-you-wanna-go-fast/
-<br>
-### Тесты:
+
+<b> Тесты: </b>
 - https://blog.golang.org/cover - расширенная информация о go test -cover
-<br>
-### Полезные инструменты:
+
+<b> Полезные инструменты: </b>
 - https://mholt.github.io/json-to-go - позволяет по json сформировать структуру на go, в которую он может быть распакован
 - https://github.com/mailru/easyjson - кодогенератор для json от mail.ru
