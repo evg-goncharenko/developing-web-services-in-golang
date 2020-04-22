@@ -36,3 +36,12 @@
     - Профилирование и оптимизация;
     - Pprof;
     - Escape analysis.
+### Анатомия веб-сервиса
+    - Работа с middleware;
+    - Обработка ошибок;
+    - Routers;
+    - Валидация;
+    - Логирование;
+    - Модули;
+    - CRUDApp (Create, Read, Update and Delete application);
+    - Websockets.
