@@ -1,0 +1,38 @@
+tree
+.
+├── bin
+│   └── redditclone
+├── cmd
+│   └── redditclone
+│       └── main.go
+├── file_tree.txt
+├── go.mod
+├── go.sum
+├── pkg
+│   ├── handlers
+│   │   ├── post.go
+│   │   └── user.go
+│   ├── interfaces
+│   │   └── interface.go
+│   ├── middleware
+│   │   ├── accesslog.go
+│   │   ├── auth.go
+│   │   ├── json.go
+│   │   └── panic.go
+│   ├── posts
+│   │   └── post.go
+│   ├── sessions
+│   │   ├── manager.go
+│   │   └── session.go
+│   └── users
+│       └── user.go
+└── template
+    ├── index.html
+    └── static
+        ├── css
+        │   └── main.74225161.chunk.css
+        └── js
+            ├── 2.d59deea0.chunk.js
+            └── main.32ebaf54.chunk.js
+
+14 directories, 20 files
