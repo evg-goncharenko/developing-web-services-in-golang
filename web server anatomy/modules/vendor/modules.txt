@@ -1,0 +1,2 @@
+# github.com/evg-goncharenko/examplerepo v0.0.0-20170218071937-9b59d66a1aa9
+github.com/evg-goncharenko/examplerepo
