@@ -7,6 +7,9 @@ import (
 
 const iterNum = 1000
 
+// Сравнение двух способов добавления чисел в массив:
+// Если сделать преаллокацию, то работает в 20 раз быстрее, а также нет выделений памяти 
+
 func BenchmarkEmptyAppend(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		data := make([]int, 0)
@@ -18,7 +21,7 @@ func BenchmarkEmptyAppend(b *testing.B) {
 
 func BenchmarkPreallocAppend(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		data := make([]int, 0, iterNum)
+		data := make([]int, 0, iterNum) // преаллоцируем сразу iterNum
 		for j := 0; j < iterNum; j++ {
 			data = append(data, j)
 		}
@@ -28,6 +31,7 @@ func BenchmarkPreallocAppend(b *testing.B) {
 /*
 Запуск: (-x для генерации бинарного файла)
 	go test -bench . -x -benchmem -cpuprofile=cpu.out -memprofile=mem.out -memprofilerate=1 prealloc_test.go
+*benchmem означает, что мы еще запускаем бенчмарк памяти*
 
 Запуск pprof: (после запуска консоли можно пользоваться командами (pprof))
 	go tool pprof main.test cpu.out
