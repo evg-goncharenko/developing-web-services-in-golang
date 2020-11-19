@@ -8,9 +8,9 @@ import (
 )
 
 /*
-	В чем преимущество этого теста по сравнению с TestPipeline?
-	1. Он проверяет то, что все функции действительно выполнились
-	2. Он дает представление о влиянии time.Sleep в одном из звеньев конвейера на время работы
+	What is the advantage of this test compared to TestPipeline?
+	1. It checks that all functions are actually executed
+	2. It gives an idea of the impact of time.Sleep in one of the pipeline links during operation
 */
 
 func TestByIlia(t *testing.T) {
